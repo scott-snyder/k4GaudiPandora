@@ -1,0 +1,6 @@
+Bottom: 42570c0e4d1042a5edaf7778028261f9397e2577
+Top:    42570c0e4d1042a5edaf7778028261f9397e2577
+Author: sss <sss@karma>
+Date:   2025-10-13 17:00:40 -0400
+
+Fix cmake warnings.
