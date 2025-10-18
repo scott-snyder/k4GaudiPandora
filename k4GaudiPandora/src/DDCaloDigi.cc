@@ -46,7 +46,7 @@
 
 dd4hep::rec::LayeredCalorimeterData* DDCaloDigi::getExtension(unsigned int includeFlag,
                                                               unsigned int excludeFlag) const {
-  dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
+  const dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
   const std::vector<dd4hep::DetElement>& theDetectors =
       dd4hep::DetectorSelector(*mainDetector).detectors(includeFlag, excludeFlag);
 

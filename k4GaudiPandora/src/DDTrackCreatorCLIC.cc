@@ -63,7 +63,7 @@ DDTrackCreatorCLIC::DDTrackCreatorCLIC(const Settings& settings, pandora::Pandor
   /// FIXME: Probably need to be something relating to last disk inner radius
   m_cosTracker = m_trackerZmax / std::sqrt(m_trackerZmax * m_trackerZmax + m_trackerInnerR * m_trackerInnerR);
 
-  dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
+  const dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
 
   // Maybe we need to veto the vertex? That was done in the ILD case
   const std::vector<dd4hep::DetElement>& barrelDets =
@@ -286,7 +286,7 @@ bool DDTrackCreatorCLIC::PassesQualityCuts(const edm4hep::Track& pTrack,
 
     // Initialize hits to 0
     int nBarrelTrackerHits = 0;
-    dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
+    const dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
     const std::vector<dd4hep::DetElement>& barrelDets =
         dd4hep::DetectorSelector(*mainDetector).detectors((dd4hep::DetType::TRACKER | dd4hep::DetType::BARREL));
     for (std::vector<dd4hep::DetElement>::const_iterator iter = barrelDets.begin(), iterEnd = barrelDets.end();

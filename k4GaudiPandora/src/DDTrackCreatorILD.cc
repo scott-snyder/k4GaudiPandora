@@ -59,7 +59,7 @@ DDTrackCreatorILD::DDTrackCreatorILD(const Settings& settings, pandora::Pandora&
 
   // Instead of gear, loop over a provided list of forward (read: endcap) tracking detectors. For ILD this would be FTD
   /// FIXME: Should we use surfaces instead?
-  dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
+  const dd4hep::Detector* mainDetector = m_geoSvc->getDetector();
   const std::vector<dd4hep::DetElement>& endcapDets =
       dd4hep::DetectorSelector(*mainDetector).detectors((dd4hep::DetType::TRACKER | dd4hep::DetType::ENDCAP));
   for (std::vector<dd4hep::DetElement>::const_iterator iter = endcapDets.begin(), iterEnd = endcapDets.end();
