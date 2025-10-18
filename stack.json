@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "39ba738be156ab9f7854c6211a67c5721355a9a4",
-  "head": "04b050b88f5064aa01f2fdf39ee5dcf965fe2e09",
+  "prev": "90131484d8a11af7d9b956e89cfd4986a07eb664",
+  "head": "592a686c653626fd05dd7169e79f6f96143d07f3",
   "applied": [
     "cmakewarn",
     "danglewarn",
-    "constGeo",
-    "refresh-temp"
+    "constGeo"
   ],
   "unapplied": [],
   "hidden": [],
@@ -15,13 +14,10 @@
       "oid": "2eb73eb9c826d31a344518148129ebf57ba55c49"
     },
     "constGeo": {
-      "oid": "2ef463ac713886d762ddf4569b11b708fa7b3577"
+      "oid": "592a686c653626fd05dd7169e79f6f96143d07f3"
     },
     "danglewarn": {
       "oid": "77f95794a1af7edcab402f71c3da0b99756a0186"
-    },
-    "refresh-temp": {
-      "oid": "04b050b88f5064aa01f2fdf39ee5dcf965fe2e09"
     }
   }
 }
