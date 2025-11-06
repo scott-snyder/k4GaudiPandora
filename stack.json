@@ -1,9 +1,23 @@
 {
   "version": 5,
-  "prev": null,
-  "head": "b3105d398e7718c8034a3b6bf2447e11ffdbac0a",
-  "applied": [],
+  "prev": "70f8b2140083ddf0b81893dcd275cc7b43bf89a5",
+  "head": "0d20b28b42e8626175e8d006a32f916fbc0b9be5",
+  "applied": [
+    "cmakewarn",
+    "danglewarn",
+    "constGeo"
+  ],
   "unapplied": [],
   "hidden": [],
-  "patches": {}
+  "patches": {
+    "cmakewarn": {
+      "oid": "73299df7a60105dc63318b40838c85b5f929f673"
+    },
+    "constGeo": {
+      "oid": "0d20b28b42e8626175e8d006a32f916fbc0b9be5"
+    },
+    "danglewarn": {
+      "oid": "8809eba44812f24f3d865c3aeaffa232ed516392"
+    }
+  }
 }

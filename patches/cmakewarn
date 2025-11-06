@@ -1,0 +1,8 @@
+Bottom: cc93fbec6360819037ff149d0758462c1253e587
+Top:    8e5767e0d793b691b01f0540c3f594c505ea82d4
+Author: sss <sss@karma>
+Date:   2025-11-05 21:29:54 -0500
+
+Fix cmake development warnings.
+
+Enable NEW policies for CMP0144 and CMP0167.
