@@ -1,10 +1,9 @@
 {
   "version": 5,
-  "prev": "651d42a7f3d9be76b836afba8452dcb34819705c",
-  "head": "c10bbf6571ffc90364fb5dd37d68c40d4c48fdfd",
+  "prev": "894bff0c2dcd511a64a1469e3225893b10cffd38",
+  "head": "953ec82de84ee81df8ba0e2eec22d1d91deebc55",
   "applied": [
     "cmakewarn",
-    "danglewarn",
     "constGeo"
   ],
   "unapplied": [],
@@ -14,10 +13,7 @@
       "oid": "e4f043ac533ed8f28e8e6716cfa3b2a6e5f97695"
     },
     "constGeo": {
-      "oid": "c10bbf6571ffc90364fb5dd37d68c40d4c48fdfd"
-    },
-    "danglewarn": {
-      "oid": "4d3fad93af116eee4b2d96e4cd4041fba1777cd2"
+      "oid": "953ec82de84ee81df8ba0e2eec22d1d91deebc55"
     }
   }
 }
