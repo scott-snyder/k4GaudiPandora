@@ -1,17 +1,21 @@
 {
   "version": 5,
-  "prev": "a32a2543de0fe3a48e080520abb9e9f11148514f",
-  "head": "927b24e5a0421c648d9ac41386ebabed15f90768",
+  "prev": "e8bc043126b54b2fa53a05ef6ad40dff48f6e30b",
+  "head": "e6308e4bd7b6c67a3b1a0e5d11eefc4f596c2bf3",
   "applied": [
     "cmakewarn",
     "constGeo",
     "gccbug-newxx",
     "cxx26",
-    "depr"
+    "depr",
+    "clang"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "clang": {
+      "oid": "e6308e4bd7b6c67a3b1a0e5d11eefc4f596c2bf3"
+    },
     "cmakewarn": {
       "oid": "81b93123bf7bf7d4b8428772d145cbf7f7049854"
     },
