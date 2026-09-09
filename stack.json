@@ -1,8 +1,9 @@
 {
   "version": 5,
-  "prev": "fdd39283681454d2d51ac1cb6a095a8ed5402081",
-  "head": "3c9a784c5cac20786829a07e8fec86c6434bcf1f",
-  "applied": [
+  "prev": "68bdd3f7eb01fc9428e9dbe86016ac56b39e9905",
+  "head": "92407b1b2dad8dd7ccc41b8ea48e60ba5b7e42e4",
+  "applied": [],
+  "unapplied": [
     "cmakewarn",
     "constGeo",
     "gccbug-newxx",
@@ -10,7 +11,6 @@
     "depr",
     "clang"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "clang": {
