@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "55cbdf49646884e93577d873a585853f542d022d",
-  "head": "e38f1175a3be4b94963d755163f4465b7f048e86",
-  "applied": [],
-  "unapplied": [
+  "prev": "4cd9f3dd3eaa962ceaf2a9ce817502794fc68b68",
+  "head": "75614a20f4b8d1ed21e634539e5db96e1c4f0d04",
+  "applied": [
     "cmakewarn",
     "constGeo",
     "gccbug-newxx",
     "cxx26",
-    "depr",
+    "depr"
+  ],
+  "unapplied": [
     "clang"
   ],
   "hidden": [],
@@ -17,19 +18,19 @@
       "oid": "3c9a784c5cac20786829a07e8fec86c6434bcf1f"
     },
     "cmakewarn": {
-      "oid": "81b93123bf7bf7d4b8428772d145cbf7f7049854"
+      "oid": "c1fcb808fade4507fbaf5fb96c3535b9d092d90d"
     },
     "constGeo": {
-      "oid": "6eb4829bde69ab5b2af8218449de20cb38e55e3b"
+      "oid": "0874b731b6c91b22b5369ad69d65651b26fef8d7"
     },
     "cxx26": {
-      "oid": "6445454229362cde0e24bbf58711c16008dbe631"
+      "oid": "fbdecdcd51a3ba13079722d0c5b51a642cf29b27"
     },
     "depr": {
-      "oid": "927b24e5a0421c648d9ac41386ebabed15f90768"
+      "oid": "75614a20f4b8d1ed21e634539e5db96e1c4f0d04"
     },
     "gccbug-newxx": {
-      "oid": "ef1801c91767690e38084a993aab765a1b1598b3"
+      "oid": "5ca30ea428c58bd21529a898c9c2f9f3f854670b"
     }
   }
 }
